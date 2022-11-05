@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 15</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container"></div>
+		</header>
+		<main class="main">
+			<div class="main__container contact">
+				<div class="contact__box">
+					<div class="contact__illustartion">
+						<img src="img/illustration.svg" alt="illustration">
+					</div>
+					<div class="contact__questions">
+						<div class="conatct__undertitel undertitel">
+							<h6>Any questions?</h6>
+							<h1>Drop us a line</h1>
+						</div>
+						<form class="contact__form form" method="POST" enctype="multipart/form-data" action="#">
+							<div class="form__line">
+								<label class="form__label form-item" for="name-01">First Name*</label>
+								<input class="form__input form-item" required id="name-01" autocomplete="off" placeholder="Your first name"
+									name="first-name" type="text">
+							</div>
+							<div class="form__line">
+								<label class="form__label form-item" for="name-02">Last  Name*</label>
+								<input class="form__input form-item" required id="name-02" autocomplete="off" placeholder="Your last name"
+									name="last-name" type="text">
+							</div>
+							<div class="form__line">
+								<label class="form__label form-item" for="email-01">Email*</label>
+								<input class="form__input form-item" required id="email-01" autocomplete="off" placeholder="Your working email"
+									name="email" type="email">
+							</div>
+							<div class="form__line">
+								<label class="form__label form-item" for="phone-01">Phone</label>
+								<input class="form__input form-item" id="phone-01" autocomplete="off" placeholder="Your phone number"
+									name="phone" type="tel">
+							</div>
+							<div class="form__line">
+								<label class="form__label form-item" for="message-01">Message*</label>
+								<textarea id="message-01" autocomplete="off" name="message" class="form__area form-item " placeholder="Your message"></textarea>
+							</div>
+						</form>
+						<div class="contact__send-message send-message">
+							<div class="send-message__checkbox chexkbox">
+								<div class="checkbox__box">
+									<input id="agreement-01" autocomplete="off" type="checkbox" value="yes" required name="agreement" class="checkbox__input">
+									<label for="agreement-01" class="checkbox__label"><span class="checkbox__text">I agree to receive communications from Createx Online School</span></label>
+								</div>
+							</div>
+							<a href="" class="send-message__button button"><span>Send message</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container"></div>
+		</footer>
+	</div>
+</body>
+
+</html>
